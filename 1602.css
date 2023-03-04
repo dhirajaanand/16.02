@@ -1,0 +1,153 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+#navtextt:hover{
+	color: red;
+}
+#navbtnn{
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	margin-left: 30px;
+}
+#navbtnn:hover{
+	background: grey;
+	color: black ;
+	border: grey;
+}
+/* banner */
+.sec1{
+	background-image: url('https://res.cloudinary.com/dxujeg5en/image/upload/v1669302394/modified-mazda-4k-4t_rfmpjx.jpg');
+	height: 75vh;
+	background-size: cover;
+	/* color: white; */
+	/* text-align: center; */
+}
+/* .sec1 h1{
+	padding-top: 22%;
+}
+.sec1 p{
+	font-size: 1.4rem;
+}
+.sec1 button{
+	padding: 1%;
+	border: none;
+	border-radius: 5px;
+	background: red;
+	color: white;
+} */
+.sec1 button{
+	padding: 1%;
+	border: none;
+	border-radius: 5px;
+	background: red;
+	color: white;
+	/* font-weight: bold; */
+}
+.sec2{
+	background-color: #f9fefb;
+	padding: 3% 5%;
+}
+.cardss{
+	display: flex;
+	justify-content: center;
+	width: 90%;
+	margin-left: 5%;
+}
+.sec2 h1 , .sec2 p{
+	padding-left: 7%;
+}
+.cardd{
+	background-color: white;
+	border: solid 1px grey;
+	text-align: center;
+	margin: 2%;
+	width: 35%;
+	border-radius: 15px;
+}
+.cardd h3{
+	font-weight: bold;
+	padding-top: 4%;
+}
+.cardd p{
+	padding: 0% 2%;
+}
+.cardd img{
+	width: 40%;
+	padding-top: 5%;
+}
+#offer{
+	width: 35%;
+	padding-bottom: 4%;
+}
+#offer p{
+	padding: 0;
+}
+.offf{
+	font-weight: bolder;
+}
+/* sec3 */
+#secc3{
+	padding: 0;
+}
+.ecard h1{
+	font-size: 1.8rem;
+	font-weight: bold;
+	padding-bottom: 2%;
+	color: #183b56;
+}
+.ecard{
+	border-radius: 15px;
+}
+.cardlink{
+	color: red;
+	font-weight: bold;
+}
+.cardlink i{
+	margin-left: 3%;
+}
+/* payment */
+.payment{
+	padding-top: 4%;
+}
+.texxt h1{
+	color: #183b56;
+}
+.texxt p{
+	color: #5a7184;
+}
+.texxt button{
+	color: white;
+	font-weight: bold;
+	background: red;
+	border: none;
+	padding: 2% 3%;
+	border-radius: 10px;
+}
+.paymentimg img{
+	width: 100%;
+}
+.line3 img{
+	width: 8%;
+	margin-right: 4%;
+	padding-top: 2%;
+}
+/* contact */
+.contactsec{
+	background-color: rgba(0,0,0,0.4)
+}
+.btn-success{
+	cursor: pointer;
+}
+.fa-facebook , .fa-instagram, .fa-linkedin{
+	font-size: 2.5rem;
+	color: white;
+}
+.fa-facebook:hover , .fa-instagram:hover , .fa-linkedin:hover {
+	color: red;
+}
+
+
